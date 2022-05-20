@@ -8,6 +8,9 @@ Plug 'sheerun/vim-polyglot'
 Plug '42Paris/42header'
 Plug 'jiangmiao/auto-pairs'
 Plug 'overcache/NeoSolarized'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 call plug#end()
 
 
@@ -20,7 +23,7 @@ set	inccommand=split
 set	hidden
 
 "_____________________________________________"
-"		TEMAS - +- legal. Usar qd enjoar
+"		TEMAS 
 "_____________________________________________"
 "
 "colorscheme NeoSolarized
@@ -58,3 +61,8 @@ map sh <C-w>h
 map sk <C-w>k
 map sj <C-w>j
 map sl <C-w>l
+
+"_____________________________________________"
+"
+nnoremap ∆ :m+1<CR>
+nnoremap ˚ :m-2<CR>
